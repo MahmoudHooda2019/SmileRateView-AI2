@@ -1,0 +1,71 @@
+# For a detailed info on this file and supported fields, check out the below link:
+# https://github.com/ShreyashSaitwal/rush-cli/wiki/Metadata-File
+
+---
+name: SmileRateView
+description: Extension component for SmileRateView. Created using Rush.
+
+version:
+  number: auto
+  name: '0.1'
+
+authors:
+  - A E M O
+
+build:
+  release:
+    # Optimizes the extension on every release build.
+    optimize: true
+
+  # If enabled, you will be able to use Java 8 language features in your extension.
+  desugar:
+    enable: false
+    desugar_deps: false
+
+assets:
+  # Extension icon. This can be a URL or a local image in 'assets' folder.
+  icon: icon.jpg
+  # Extension assets.
+  other:
+    - dislike_1.png
+    - dislike_2.png
+    - dislike_3.png
+    - dislike_4.png
+    - dislike_5.png
+    - dislike_6.png
+    - dislike_7.png
+    - dislike_8.png
+    - dislike_9.png
+    - like_1.png
+    - like_2.png
+    - like_2_1.png
+    - like_2_2.png
+    - like_2_3.png
+    - like_3.png
+    - like_3_1.png
+    - like_4.png
+    - like_4_1.png
+    - like_4_2.png
+    - like_4_3.png
+    - like_5.png
+    - like_6.png
+    - like_6_1.png
+    - like_6_2.png
+    - like_6_3.png
+    - like_7.png
+    - like_7_1.png
+    - like_7_2.png
+    - like_7_3.png
+    - like_8.png
+    - like_8_1.png
+    - like_8_2.png
+    - like_8_3.png
+    - like_9.png
+    - like_9_1.png
+    - like_9_2.png
+    - like_9_3.png
+    - like_10.png
+
+# Extension dependencies (JAR).
+# deps:
+#   - my_awesome_library.jar
